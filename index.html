@@ -1,188 +1,97 @@
-
 <!DOCTYPE html>
 <html>
 <head>
-	<title>Uy ishi</title>
+	<title>23-dars</title>
 	<link rel="stylesheet" type="text/css" href="font-awesome/css/font-awesome.min.css">
 	<link rel="stylesheet" type="text/css" href="bootstrap/css/bootstrap.min.css">
 	<link rel="stylesheet" type="text/css" href="bootstrap/js/bootstrap.min.js">
-	<style type="text/css">
-		.jumbotron{
-		background-color: #E6D200!important;
+<style type="text/css">
+	.jumbotron{
+		background-color: skyblue!important;
 	}
-	table tr td {
-		background-color: #E6D200;
+	.badge-info{
+		background-color: #12A4E2!important;
 	}
-	img{ 
-		margin-left: auto;
-		margin-right: auto;
-		width: 100%;
-		height: 700px;
-	}
-
-	</style>
+</style>
 </head>
 <body>
-	<style>
-/* customizable snowflake styling */
-.snowflake {
-  color: #fff;
-  font-size: 1em;
-  font-family: Arial, sans-serif;
-  text-shadow: 0 0 5px #000;
-}
+	<h1 class="jumbotron text-center">Bootstrap davomi</h1>
+	<button type="button" class="btn btn-info btn-sm">Yuborish</button><br>
+	<button type="button" class="btn btn-outline-primary btn-lg" disabled>Yuborish</button>
+	<button type="button" class="btn btn-outline-primary btn-lg active">Yuborish</button>
+	<button type="button" class="btn btn-outline-primary btn-block">Yuborish</button><br><hr><br>
+	<h1 class="text-center">Animatsion 'button' </h1>
+	<button class="btn btn-danger">
+	<span class="spinner-border spinner-border-sm"></span>
+	Yuklanmoqda...
+	</button><br><hr><br>
+	<div class="btn-group">
+		<button type="button" class="btn btn-secondary">Asosiy</button>
+		<button type="button" class="btn btn-secondary">Biz haqimizda</button>
+		<button type="button" class="btn btn-secondary">Aloqa</button>
+		<button type="button" class="btn btn-secondary">Magazin</button>
+	</div><hr>
+	<h1>Kevin De Bruyne<span class="badge badge-info">17</span></h1>
+	<h1>Mato<span class="badge badge-pill badge-info">Info</span></h1><hr>
+	<div class="progress" style="height: 50px;">
 
-@-webkit-keyframes snowflakes-fall{0%{top:-10%}100%{top:100%}}@-webkit-keyframes snowflakes-shake{0%,100%{-webkit-transform:translateX(0);transform:translateX(0)}50%{-webkit-transform:translateX(80px);transform:translateX(80px)}}@keyframes snowflakes-fall{0%{top:-10%}100%{top:100%}}@keyframes snowflakes-shake{0%,100%{transform:translateX(0)}50%{transform:translateX(80px)}}.snowflake{position:fixed;top:-10%;z-index:9999;-webkit-user-select:none;-moz-user-select:none;-ms-user-select:none;user-select:none;cursor:default;-webkit-animation-name:snowflakes-fall,snowflakes-shake;-webkit-animation-duration:10s,3s;-webkit-animation-timing-function:linear,ease-in-out;-webkit-animation-iteration-count:infinite,infinite;-webkit-animation-play-state:running,running;animation-name:snowflakes-fall,snowflakes-shake;animation-duration:10s,3s;animation-timing-function:linear,ease-in-out;animation-iteration-count:infinite,infinite;animation-play-state:running,running}.snowflake:nth-of-type(0){left:1%;-webkit-animation-delay:0s,0s;animation-delay:0s,0s}.snowflake:nth-of-type(1){left:10%;-webkit-animation-delay:1s,1s;animation-delay:1s,1s}.snowflake:nth-of-type(2){left:20%;-webkit-animation-delay:6s,.5s;animation-delay:6s,.5s}.snowflake:nth-of-type(3){left:30%;-webkit-animation-delay:4s,2s;animation-delay:4s,2s}.snowflake:nth-of-type(4){left:40%;-webkit-animation-delay:2s,2s;animation-delay:2s,2s}.snowflake:nth-of-type(5){left:50%;-webkit-animation-delay:8s,3s;animation-delay:8s,3s}.snowflake:nth-of-type(6){left:60%;-webkit-animation-delay:6s,2s;animation-delay:6s,2s}.snowflake:nth-of-type(7){left:70%;-webkit-animation-delay:2.5s,1s;animation-delay:2.5s,1s}.snowflake:nth-of-type(8){left:80%;-webkit-animation-delay:1s,0s;animation-delay:1s,0s}.snowflake:nth-of-type(9){left:90%;-webkit-animation-delay:3s,1.5s;animation-delay:3s,1.5s}.snowflake:nth-of-type(10){left:25%;-webkit-animation-delay:2s,0s;animation-delay:2s,0s}.snowflake:nth-of-type(11){left:65%;-webkit-animation-delay:4s,2.5s;animation-delay:4s,2.5s}
-</style>
-<div class="snowflakes" aria-hidden="true">
-  <div class="snowflake">
-  ❅
-  </div>
-  <div class="snowflake">
-  ❆
-  </div>
-  <div class="snowflake">
-  ❅
-  </div>
-  <div class="snowflake">
-  ❆
-  </div>
-  <div class="snowflake">
-  ❅
-  </div>
-  <div class="snowflake">
-  ❆
-  </div>
-  <div class="snowflake">
-    ❅
-  </div>
-  <div class="snowflake">
-    ❆
-  </div>
-  <div class="snowflake">
-    ❅
-  </div>
-  <div class="snowflake">
-    ❆
-  </div>
-  <div class="snowflake">
-    ❅
-  </div>
-  <div class="snowflake">
-    ❆
-  </div>
+		<div class="progress-bar bg-danger" style="width: 10%; height: 20px;">Bo'sh</div>
+		<div class="progress-bar bg-warning" style="width: 40%; height: 20px;">O'rta</div>
+		<div class="progress-bar bg-success" style="width: 50%; height: 20px;">To'la</div>
 </div>
-	<h1 class="jumbotron text-center">MUAZ ACADEMY</h1>
-	<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d191.3660537516269!2d69.20221115263423!3d41.40443736995574!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x38ae8de2c9b2c7e5%3A0x6fd1177bd3ba01a6!2zTVVBWiBBY2FkZW15IC0g0KPRh9C10LHQvdGL0Lkg0YbQtdC90YLRgA!5e1!3m2!1sru!2s!4v1663948729468!5m2!1sru!2s" width="100%" height="500" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
-	<br><hr><br><br>
-	<table class="table table-striped table-bordered">
-		<tr>
-			<td>IT kurslari:</td>
-			<td>IT (ПРОГРАММИРОВАНИЕ)</td>
-			<td>Kompyuter savodxonligi</td>
-			<td>WEB dasturlash</td>
-			<td>Dasturlash tillari</td>
-			<td>SMM</td>
-		</tr>
-		<tr>
-			<td>TILLAR:</td>
-			<td>Ingliz tili</td>
-			<td>Rus tili</td>
-			<td>Arab tili</td>
-			<td>Pochemuchka</td>
-		</tr>
-		<tr>
-			<td>FANLAR:</td>
-			<td>Matematika</td>
-			<td>Fizika</td>
-			<td>Kimyo</td>
-			<td>Biologiya</td>
-		</tr>
-	</table>
-	<div class="container content padding-64" style="max-width:800px" id="contact">
-    <h2 class="text-wide text-center">KONTAKT</h2>
-    <div class="row padding-32">
-      <div class="col m6 large margin-bottom">
-        <i class="fa fa-map-marker" style="width:30px"></i> Toshkent tuman, Keles shahri<br>
-        <i class="fa fa-phone" style="width:30px"></i> Tel:  <a href="+998 (77) 002-40-04"> +998 (77) 002-40-04</a><br>
-        <i class="fa fa-envelope" style="width:30px"> </i> Email: http://muazacademy.uz<br>
-      </div>
-      <div class="col m6">
-        <form action="https://www.w3schools.com/action_page.php" target="_blank">
-          <div class="row-padding" style="margin:0 -16px 8px -16px">
-            <div class="half">
-              <input class="input border" type="text" placeholder="Ism" required="" name="Name">
-            </div>
-            <div class="half">
-              <input class="input border" type="text" placeholder="Email" required="" name="Email">
-            </div>
-          </div>
-          <input class="input border" type="text" placeholder="Xabar" required="" name="Message">
-          <button class="button btn-black btn-section btn-right" type="submit">Yuborish</button>
-        </form>
-      </div>
-    </div>
-  </div>
-</div>
-<br><hr><br>
-	<h1 class="text-center">MUAZ LOGO</h1>
-	<img src="muaz.jpg">
-	<br><hr><br>
-	<div class="container">
-			<div class="row">
-				<div class="col">
-				<div class="card" style="width: 750px;">
-			<img class="card-img-top" src="1.jpg" style="width: 750px; height: 750px;">
-			<div class="card-body">
-				<h4 class=" card-title text-center">MUAZ ACADEMY</h4>
-				<p class="card-text text-center">Murojat uchun: +998 77 002 40 04</p>
-				<p style="text-align: center;"><a href="https://@MUAZ_ACADEMY"><i class="fa fa-telegram"> </i>
-					<i class="fa fa-instagram"></i>@MUAZ_ACADEMY</a>
-				<a href="muaz.php" class="btn btn-mci btn-block">Batafsil</a></p>
-			</div>
-		</div>
-	</div><br><hr><br>
-	<div class="col">
-				<div class="card" style="width: 750px;">
-			<img class="card-img-top" src="2.jpg" style="width: 750px;
-			height: 750px">
-			<div class="card-body">
-				<h4 class=" card-title text-center">Bu bizning IT xonamiz</h4>
-				<p class="card-text text-center">Bu yerda Ingliz tili ham o'tiladi</p>
-				<a href="muaz2.php" class="btn btn-mci btn-block">Batafsil</a>
-			</div>
-		</div>
-	</div><br><hr><br>
-	<div class="col">
-				<div class="card" style="width: 750px;">
-			<img class="card-img-top" src="3.jpg" style="width:750px; height: 750px;">
-			<div class="card-body">
-				<h4 class=" card-title text-center">Bu IT xonamizning ichki qismi</h4>
-				<p class="card-text text-center">Bu orqa tomondan ko'rinishi</p>
-				<a href="muaz3.php" class="btn btn-mci btn-block">Batafsil</a>
-			</div>
-		</div>
-	</div><br><hr><br>
-			
-		</div>
-		</div><br><hr><br>
+
+		<div class="progress-bar progress-bar-striped bg-mci" style="width: 50%; height: 50px;">50%</div></div><br>
+		<ul class="pagination pagination-lg justify-content-center">
+			<li class="page-item active"><a class="page-link" href="#">1</a></li>	
+			<li class="page-item"><a class="page-link" href="#">2</a></li>	
+			<li class="page-item"><a class="page-link" href="#">3</a></li>	
+			<li class="page-item"><a class="page-link" href="#">4</a></li>	
+			</li>
+		</ul>
+
+
+		<button type="button" class="btn btn-mci" data-toggle="collapse" data-target="demo">Man City</button>
+		<div id="demo" class="collapse">
+			<h1>Manchester City best of the best</h1>
+		</div><br>
+
+
+
 		<div class="container">
 			<div class="row">
-		<div class="col">
-				<div class="card" style="width: 750px;">
-			<img class="card-img-top" src="ustoz.jpg" style="width:750px; height: 750px;">
+				<div class="col">
+				<div class="card" style="width: 300px;">
+			<img class="card-img-top" src="The Champion.jpg" style="width: 100%;">
 			<div class="card-body">
-				<h4 class=" card-title text-center">Bu mening IT ustozim</h4>
-				<p class="card-text text-center">Mahmudjun Aka Utkurov</p>
-				<a href="ustoz.php" class="btn btn-mci btn-block">Batafsil</a>
+				<h4 class=" card-title text-center">Kevin De Bruyne</h4>
+				<p class="card-text text-center">Manchester City futbolchisi</p>
+				<a href="#" class="btn btn-mci btn-block">Aloqa</a>
+			</div>
+		</div>
+	</div>
+
+<div class="col">
+				<div class="card" style="width: 300px;">
+			<img class="card-img-top" src="Guardiola.png" style="width: 100%;">
+			<div class="card-body">
+				<h4 class=" card-title text-center">Hose Pep Guardiola</h4>
+				<p class="card-text text-center">Manchester City Murabbiyi</p>
+				<a href="#" class="btn btn-mci btn-block">Aloqa</a>
+			</div>
+		</div>
+	</div>
+	<div class="col">
+				<div class="card" style="width: 300px;">
+			<img class="card-img-top" src="De Bruyne.jpg" style="width: auto; height: auto;">
+			<div class="card-body">
+				<h4 class=" card-title text-center">Kevin De Bruyne</h4>
+				<p class="card-text text-center">Manchester City futbolchisi</p>
+				<a href="#" class="btn btn-mci btn-block">Aloqa</a>
 			</div>
 		</div>
 	</div>
 			
 		</div>
 		</div>
-		<hr>
-
-
 </body>
 </html>
